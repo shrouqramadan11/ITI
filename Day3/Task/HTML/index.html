@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Page Information -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal profile page showcasing my skills, courses, gallery, and contact information.">
+    <title>Portfolio</title>
+    <link rel="icon" href="../assets/logo.png" type="image/png">
+</head>
+
+<body>
+
+    <!-- Header and Navigation -->
+    <header>
+        <nav>
+            <a href="#about">About</a>
+            &nbsp;
+            <a href="#skills">Skills</a>
+            &nbsp;
+            <a href="#courses">Courses</a>
+            &nbsp;
+            <a href="#gallery">Gallery</a>
+            &nbsp;
+            <a href="#contact">Contact</a>
+            &nbsp;
+            <a href="#projects">Projects</a>
+            &nbsp;
+            <a href="#faq">FAQ</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+
+        <!-- About Section -->
+        <section id="about">
+            <h1>Shrouq Ramadan</h1>
+<pre>
+        I'm a second-year student at October Technological University.<br>
+        I have a background in Web Programming and I am currently focusing on<br>
+        <strong>Front-End Development</strong>.<br>
+        I have experience with HTML, CSS, JavaScript, and React, and I enjoy<br>
+        building interactive and user-friendly websites.<br>
+        I'm always working on improving my skills through learning and practical projects.
+</pre>
+
+
+            <img src="../assets/cat2.jfif" alt="cat picture" width="250">
+
+        </section>
+
+        <hr>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>My Skills</h2>
+
+            <h3>Technical Skills</h3>
+
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Git and GitHub</li>
+            </ul>
+
+            <h3>My Learning Journey</h3>
+
+            <ol>
+                <li>Learn HTML</li>
+                <li>Learn CSS</li>
+                <li>Learn JavaScript</li>
+                <li>Learn React</li>
+                <li>Build Real Projects</li>
+            </ol>
+
+            <p>
+                <strong>Strong fundamentals</strong> and
+                <em>continuous practice</em> are important for becoming a
+                <mark>better developer</mark>.
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- Courses Table -->
+        <section id="courses">
+            <h2>My Courses</h2>
+
+            <table border="1">
+                <caption>Courses I Have Studied</caption>
+
+                <thead>
+                    <tr>
+                        <th>Course Name</th>
+                        <th>Duration</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>HTML & CSS</td>
+                        <td>2 Months</td>
+                        <td>Completed</td>
+                    </tr>
+
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>3 Months</td>
+                        <td>Completed</td>
+                    </tr>
+
+                    <tr>
+                        <td>React</td>
+                        <td>2 Months</td>
+                        <td>In Progress</td>
+                    </tr>
+
+                    <tr>
+                        <td rowspan="2">Web Development</td>
+                        <td>6 Months</td>
+                        <td>Completed</td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">Overall Web Development Training</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="3">More courses coming soon...</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- Gallery Section -->
+        <section id="gallery">
+            <h2>My Gallery</h2>
+
+            <figure>
+                <img src="../assets/cat2.jfif" alt="cat picture" width="250">
+                <figcaption>My First Web Project</figcaption>
+            </figure>
+
+            <figure>
+                <img src="../assets/cat2.jfif" alt="cat picture" width="250">
+                <figcaption>Frontend Project</figcaption>
+            </figure>
+
+            <figure>
+                <img src="../assets/cat2.jfif" alt="cat picture" width="250">
+                <figcaption>React Project</figcaption>
+            </figure>
+        </section>
+
+        <hr>
+
+        <!-- Contact Form -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <form action="#" method="post">
+
+                <p>
+                    <label for="name">Name:</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your name"
+                        required
+                    >
+                </p>
+
+                <p>
+                    <label for="email">Email:</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="example@email.com"
+                        required
+                    >
+                </p>
+
+                <p>
+                    <label for="phone">Phone:</label>
+                    <input
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        placeholder="Enter your phone number"
+                        required
+                    >
+                </p>
+
+                <p>
+                    <label for="birthdate">Date of Birth:</label>
+                    <input
+                        type="date"
+                        id="birthdate"
+                        name="birthdate"
+                    >
+                </p>
+
+                <p>
+                    <label for="subject">Subject:</label>
+
+                    <select id="subject" name="subject">
+                        <option value="">Choose a subject</option>
+                        <option value="job">Job Opportunity</option>
+                        <option value="project">Project</option>
+                        <option value="question">Question</option>
+                    </select>
+                </p>
+
+                <p>
+                    Preferred Contact Method:
+                    <br>
+
+                    <input
+                        type="radio"
+                        id="contact-email"
+                        name="contact-method"
+                        value="email"
+                        checked
+                    >
+                    <label for="contact-email">Email</label>
+
+                    <input
+                        type="radio"
+                        id="contact-phone"
+                        name="contact-method"
+                        value="phone"
+                    >
+                    <label for="contact-phone">Phone</label>
+                </p>
+
+                <p>
+                    <label for="message">Message:</label>
+                    <br>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        cols="40"
+                        placeholder="Write your message here..."
+                        required
+                    ></textarea>
+                </p>
+
+                <p>
+                    <input
+                        type="checkbox"
+                        id="terms"
+                        name="terms"
+                        required
+                    >
+                    <label for="terms">I agree to the conditions.</label>
+                </p>
+
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+
+            </form>
+        </section>
+
+        <hr>
+
+        <!-- FAQ Section -->
+        <section id="faq">
+            <h2>Frequently Asked Questions</h2>
+
+            <details>
+                <summary>What do you study?</summary>
+                <p>I study Information Technology and focus on Front-End Development.</p>
+            </details>
+
+            <details>
+                <summary>What technologies do you use?</summary>
+                <p>I use HTML, CSS, JavaScript, React, Git, and GitHub.</p>
+            </details>
+
+            <details>
+                <summary>Are you available for projects?</summary>
+                <p>Yes, I am interested in learning through real-world projects.</p>
+            </details>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+<address>
+            Email:
+            <a href="mailto:shrouqramadan11@gmail.com">shrouqramadan11@gmail.com</a>
+            <br>
+            Location: Egypt
+        </address>
+
+        <p>
+            <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+            &nbsp;
+            <a href="https://github.com/" target="_blank">GitHub</a>
+            &nbsp;
+            <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+        </p>
+
+        <p>
+            &copy; 2026 Shrouq Ramadan. All rights reserved.
+        </p>
+    </footer>
+
+</body>
+</html>
