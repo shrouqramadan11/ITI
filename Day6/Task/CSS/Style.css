@@ -1,0 +1,341 @@
+:root {
+    --primary-color: #6c63ff;
+    --secondary-color: #483d8b;
+    --background-color: #f5f5fa;
+    --card-color: #ffffff;
+    --text-color: #222222;
+    --light-text: #666666;
+    --border-color: #dddddd;
+}
+
+* {
+    box-sizing: border-box;
+    color: var(--text-color);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: var(--background-color);
+    background-image: url("../Images/pngtree-stunning-red-and-blue-smoke-images-for-download-image_16191211 (1).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+    color: var(--secondary-color);
+}
+
+.main-header {
+    width: 100%;
+    min-height: 70px;
+    background: var(--secondary-color);
+    text-align: center;
+}
+
+.main-header > .navigation {
+    width: 100%;
+}
+
+.navigation a {
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navigation a:hover {
+    color: #ffd700;
+    text-decoration: underline;
+}
+
+.about-section,
+.skills-section,
+.courses-section,
+.gallery-section,
+.projects-section,
+.contact-section,
+.content-section,
+.faq-section {
+    width: 90%;
+    max-width: 1000px;
+    background-color: var(--card-color);
+    border: 1px solid var(--border-color);
+    border-radius: 15px;
+    display: inline-block;
+    text-align: center;
+}
+
+.about-section {
+    min-height: 500px;
+}
+
+#profile-name {
+    color: var(--primary-color);
+    font-size: 2.5rem;
+}
+
+.job-title {
+    color: var(--secondary-color);
+    font-size: 1.4rem;
+}
+
+.profile-description {
+    width: 90%;
+    font-size: 1em;
+    color: var(--light-text);
+    white-space: pre-wrap;
+}
+
+p {
+    color: #555555;
+}
+
+.skills-description {
+    color: var(--primary-color);
+}
+
+.profile-image-container {
+    width: 270px;
+    height: 270px;
+    display: inline-block;
+    cursor: grab;
+}
+
+.profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid var(--primary-color);
+}
+
+.contact-button {
+    width: 160px;
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.contact-button:hover {
+    background-color: var(--secondary-color);
+}
+
+.skills-section h2 {
+    color: var(--primary-color);
+}
+
+.skills-list,
+.learning-list {
+    display: inline-block;
+    text-align: left;
+}
+
+.skills-list li:hover {
+    color: var(--primary-color);
+    cursor: help;
+}
+
+.courses-table {
+    width: 100%;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+.courses-table th,
+.courses-table td {
+    border: 1px solid var(--border-color);
+    text-align: center;
+}
+
+.courses-table th {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.courses-table tr:hover {
+    background-color: #eeeeff;
+}
+
+.gallery-section {
+    width: 90%;
+    max-width: 1000px;
+    background-color: var(--card-color);
+    border: 1px solid var(--border-color);
+    border-radius: 15px;
+    display: inline-block;
+    text-align: center;
+}
+
+.gallery-container {
+    width: 100%;
+    text-align: center;
+}
+
+.gallery-item {
+    width: 250px;
+    height: 230px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #f8f8ff;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    cursor: grab;
+    overflow: hidden;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 180px;
+    display: block;
+    object-fit: cover;
+}
+
+.gallery-item figcaption {
+    height: 48px;
+    color: var(--secondary-color);
+    font-weight: bold;
+    text-align: center;
+}
+
+.gallery-item:hover {
+    cursor: help;
+    border-color: var(--primary-color);
+}
+.project-card {
+    width: 45%;
+    min-height: 150px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: var(--background-color);
+    border: 2px solid var(--border-color);
+    border-radius: 10px;
+    --project-color: var(--primary-color);
+}
+
+.project-card:hover {
+    border-color: var(--project-color);
+}
+
+.contact-section h2 {
+    color: var(--primary-color);
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    max-width: 100%;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+}
+
+.contact-section p {
+    color: var(--light-text) !important;
+}
+
+.reset-button {
+    background-color: #777777;
+    color: white;
+    cursor: not-allowed;
+}
+
+.experience-box {
+    width: 70%;
+    height: 120px;
+    display: inline-block;
+    background-color: #eeeeee;
+    border: 2px solid var(--primary-color);
+    overflow: auto;
+    cursor: grab;
+    text-align: left;
+}
+
+.faq-section details {
+    border-bottom: 1px solid var(--border-color);
+}
+
+.faq-section summary {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.faq-section summary:hover {
+    color: var(--primary-color);
+}
+
+.main-footer {
+    width: 100%;
+    min-height: 150px;
+    background: #222222;
+    text-align: center;
+}
+
+.main-footer address {
+    color: white;
+}
+
+.main-footer a {
+    color: #a9a3ff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.main-footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.main-footer p {
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .about-section,
+    .skills-section,
+    .courses-section,
+    .gallery-section,
+    .projects-section,
+    .contact-section,
+    .content-section,
+    .faq-section {
+        width: 95%;
+    }
+
+    .profile-description {
+        width: 100%;
+    }
+
+    .project-card {
+        width: 100%;
+    }
+
+    .experience-box {
+        width: 100%;
+    }
+
+    .gallery-container {
+        width: 100%;
+    }
+
+    #profile-name {
+        font-size: 2rem;
+    }
+
+    .profile-image-container {
+        width: 200px;
+        height: 200px;
+    }
+
+    .gallery-item {
+        width: 100%;
+    }
+}
