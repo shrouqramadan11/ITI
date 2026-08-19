@@ -6,26 +6,18 @@
 
 body {
     background-color: rgba(253, 227, 227, 0.426);
-    font-family: "Poppins", sans-serif;
-}
-
-main {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .card {
-    width: 60%;
-    max-width: 400px;
-    padding: 30px;
+    width: 40%;
+    max-width: 550px;
+    padding: 40px;
     margin: 10px auto;
     text-align: center;
     background-color: rgb(255, 195, 205);
     border: 2px solid rgb(247, 131, 150);
     border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 20px 15px 30px rgba(241, 140, 140, 0.5);
     line-height: 30px;
 }
 

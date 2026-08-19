@@ -1,0 +1,164 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(240, 231, 231, 0.426);
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  background-image: url("../Assets/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  text-align: center;
+  color: white;
+
+  height: 60vh;
+
+  line-height: 30px;
+
+  margin-bottom: 70px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 50px;
+
+  padding: 15px 80px;
+}
+
+.navbar img {
+  height: 30px;
+}
+
+.navbar .nav-items {
+  list-style: none;
+
+  display: flex;
+
+  gap: 30px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.navbar a:hover {
+  color: rgb(93, 76, 31);
+}
+
+.container .hero {
+  padding-top: 80px;
+
+  line-height: 40px;
+}
+
+.hero h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 45px;
+}
+
+.container .hero button {
+  padding: 15px;
+
+  width: 120px;
+
+  color: whitesmoke;
+
+  border-radius: 7px;
+
+  cursor: pointer;
+}
+
+.container .hero .button-1 {
+  background-color: rgb(93, 76, 31);
+
+  border: 2px solid rgb(93, 76, 31);
+}
+
+.container .hero .button-1:hover {
+  background-color: transparent;
+}
+
+.container .hero .button-2 {
+  background-color: transparent;
+
+  border: 2px solid white;
+}
+
+.container .hero .button-2:hover {
+  background-color: rgb(93, 76, 31);
+
+  color: white;
+
+  border: 2px solid rgb(93, 76, 31);
+}
+
+.container .scroll {
+  background-color: transparent;
+
+  width: 30px;
+  height: 40px;
+
+  color: whitesmoke;
+
+  border: 1px solid whitesmoke;
+
+  border-radius: 45%;
+
+  position: relative;
+
+  top: 100px;
+
+  cursor: pointer;
+}
+
+.About {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  margin-bottom: 100px;
+}
+
+.About img {
+  width: 30%;
+  height: auto;
+}
+
+.About .text {
+  line-height: 30px;
+}
+
+.About .text h3 {
+  font-family: "Playfair Display", serif;
+
+  font-size: 28px;
+
+  margin-bottom: 15px;
+}
+
+.About .text p {
+  color: #666;
+  font-size: 14px;
+}
+
+.About .text ul {
+  margin-top: 20px;
+  list-style: none;
+  color: #666;
+  font-size: 14px;
+}
+
+.About .text li {
+  margin-bottom: 10px;
+}

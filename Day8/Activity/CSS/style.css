@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* .one{
+    background-color: pink;
+    width: 90%;
+    height: 50px;
+    border-radius: 10px;
+    position: sticky;
+    top: 10px;
+    left: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.two{
+    background-color:rgb(130, 162, 219);
+    width: 20%;
+    height: 30%;
+    border-radius: 20px;
+    position: absolute;
+    top: 250px;
+    left: 150px;
+      
+}
+.three{
+    background-color: rgb(222, 222, 21);
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+    border: none;
+    position: fixed;
+    bottom: 50px ;
+    right: 40px;
+} */
+
+/* button {
+  background-color: #3498db;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  -webkit-transition: background-color 0.3s ease;
+  -moz-transition: background-color 0.3s ease;
+  -ms-transition: background-color 0.3s ease;
+  -o-transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2ecc71;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+} */
+
+.container{
+    width: 100%;
+    display: flex;
+    gap: 15px;
+}
+.item{
+    background-color: rgb(72, 80, 16);
+    color: white;
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+}
+.container .item img{
+    width: 50%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
