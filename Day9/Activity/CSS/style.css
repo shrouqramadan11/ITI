@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    color: white;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "header header header header"
+    "main main . sidebar"
+    "footer footer footer footer";
+    text-align: center;
+    
+}
+.header{
+background-color: blue;
+grid-area: header;
+}
+.main{
+background-color: pink;
+grid-area: main;
+}
+.sidebar{
+background-color: rgb(57, 57, 11);
+grid-area: sidebar;
+}
+.footer{
+background-color: black;
+grid-area: footer;
+}
